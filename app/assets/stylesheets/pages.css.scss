@@ -9,6 +9,7 @@ html, body {
 
 .jumbotron {
   height: 800px;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/broadway/bg.jpg');
 }
 
 .header {
@@ -101,4 +102,12 @@ html, body {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   font-size: 11px;
+}
+
+ul li {
+  display: inline;
+}
+
+button {
+  color: gray;
 }
